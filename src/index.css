@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 750px;
+  padding: 40px;
+  background-color: #43e97b;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+
+
+
+
+}
+
+.container:hover {}
+
+input {
+  padding: 10px;
+  width: 400px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+
+}
+
+button {
+  background-color: black;
+  color: white;
+  margin-top: 5px;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+   
+}
